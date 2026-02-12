@@ -18,15 +18,13 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
     <div class="dream-bloom"></div>
     <div class="noise-overlay"></div>
     <!-- Essential: Connect the React App Entry Point -->
-    <!-- 수정됨: /index.tsx -> ./index.tsx (점 하나 차이가 중요합니다!) -->
-    <script type="module" src="./index.tsx"></script>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <!-- 수정됨: /src/... -> ./src/... (점(.)을 찍어 상대 경로로 변경해야 GitHub Pages 하위 주소에서도 작동합니다) -->
+    <script type="module" src="./src/index.tsx"></script>
+  </body>
 </html>
