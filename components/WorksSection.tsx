@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ArchiveGrid from './ArchiveGrid';
 import WorkDetail from './WorkDetail';
 import { ARCHIVE_DATA } from '../constants';
-import { ArchiveItem } from '../types';
+import type { ArchiveItem } from '../types';
 
 interface WorksSectionProps {
   isAdmin?: boolean;
