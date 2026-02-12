@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArchiveItem } from '../types';
+import type { ArchiveItem } from '../types';
 
 interface WorkDetailProps {
   item: ArchiveItem;
